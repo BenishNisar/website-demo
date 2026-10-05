@@ -1,0 +1,1634 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#050505">
+
+    <title>WebOctane — Digital Marketing, Tech & AI Agency</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="./css/style.css">
+
+
+
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+>
+<link rel="stylesheet" href="./css/utilities.css">
+</head>
+
+
+<body class="text-white antialiased selection:bg-octane-yellow selection:text-black">
+
+<!-- HEADER -->
+<header
+    id="site-header"
+    class="site-header
+    header-home
+    fixed top-0 left-0 w-full z-50"
+>    <div class="header-container">
+
+        <!-- LOGO -->
+        <a href="#home" class="header-logo" aria-label="WebOctane home">
+            <img
+                src="./assets/images/web-octane-logo.png"
+                width="250"
+                height="63"
+                decoding="async"
+                alt="WebOctane Logo"
+            >
+        </a>
+
+        <!-- DESKTOP NAVIGATION -->
+        <nav class="desktop-nav" aria-label="Primary navigation">
+
+            <a href="#work" class="nav-link">Work</a>
+
+            <!-- SERVICES -->
+            <div class="services-menu">
+
+           <a
+    href="#services"
+    class="nav-link services-trigger"
+    aria-haspopup="true"
+>
+    Services
+
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path
+            d="M19 9l-7 7-7-7"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+        />
+    </svg>
+</a>
+
+                <!-- MEGA MENU -->
+                <div class="mega-menu-wrap">
+
+                    <div class="mega-menu">
+
+                        <div class="mega-column">
+                            <span class="mega-number">01</span>
+
+                            <h4>Digital Growth</h4>
+
+                            <a href="#">SEO &amp; Ranking</a>
+                            <a href="#">PPC Campaigns</a>
+                            <a href="#">Performance Marketing</a>
+                            <a href="#">Social Media</a>
+                        </div>
+
+                        <div class="mega-column">
+                            <span class="mega-number">02</span>
+
+                            <h4>Web &amp; Commerce</h4>
+
+                            <a href="#">Custom Web Design</a>
+                            <a href="#">WordPress Dev</a>
+                            <a href="#">Shopify Store Setup</a>
+                            <a href="#">UI/UX Architecture</a>
+                        </div>
+
+                        <div class="mega-column">
+                            <span class="mega-number">03</span>
+
+                            <h4>Software &amp; Systems</h4>
+
+                            <a href="#">SaaS Platforms</a>
+                            <a href="#">Custom Software</a>
+                            <a href="#">CRM &amp; ERP Systems</a>
+                            <a href="#">API Integrations</a>
+                        </div>
+
+                        <div class="mega-column">
+                            <span class="mega-number">04</span>
+
+                            <h4>AI &amp; Creative</h4>
+
+                            <a href="#">AI Automation</a>
+                            <a href="#">AI Content &amp; Video</a>
+                            <a href="#">Branding &amp; Identity</a>
+                            <a href="#">Creative Direction</a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <a href="#solutions" class="nav-link">Solutions</a>
+            <a href="#home" class="nav-link">About</a>
+            <a href="#insights" class="nav-link">Insights</a>
+            <a href="#careers" class="nav-link">Careers</a>
+
+        </nav>
+
+        <!-- DESKTOP CTA -->
+        <div class="desktop-cta">
+
+            <a href="#home" class="header-project-btn">
+                <span>Start a Project</span>
+
+
+            </a>
+
+        </div>
+
+        <!-- MOBILE BUTTON -->
+        <button
+            id="menu-btn"
+            class="mobile-menu-btn"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-controls="mobile-menu"
+            aria-expanded="false"
+        >
+            <span></span>
+            <span></span>
+        </button>
+
+    </div>
+</header>
+
+
+<!-- MOBILE FULLSCREEN MENU -->
+<div
+    id="mobile-menu"
+    class="mobile-menu"
+    aria-hidden="true"
+>
+
+    <!-- BACKGROUND EFFECTS -->
+    <div class="mobile-menu-glow mobile-glow-one"></div>
+    <div class="mobile-menu-glow mobile-glow-two"></div>
+
+    <div class="mobile-menu-inner">
+
+        <!-- TOP -->
+        <div class="mobile-menu-top">
+
+            <a href="#" class="mobile-logo">
+                <img
+                    src="./assets/images/web-octane-logo.png"
+                    width="250"
+                    height="63"
+                    decoding="async"
+                    alt="WebOctane Logo"
+                >
+            </a>
+
+            <button
+                id="close-btn"
+                type="button"
+                class="mobile-close"
+                aria-label="Close navigation menu"
+            >
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+
+
+        <!-- MOBILE LINKS -->
+        <nav class="mobile-navigation" aria-label="Mobile navigation">
+
+            <a href="#work" class="mobile-link">
+                <span class="mobile-link-number">01</span>
+
+                <span class="mobile-link-text">
+                    Work
+                </span>
+
+                <span class="mobile-link-arrow">
+                    ↗
+                </span>
+            </a>
+
+
+            <a href="#services" class="mobile-link">
+                <span class="mobile-link-number">02</span>
+
+                <span class="mobile-link-text">
+                    Services
+                </span>
+
+                <span class="mobile-link-arrow">
+                    ↗
+                </span>
+            </a>
+
+
+            <a href="#solutions" class="mobile-link">
+                <span class="mobile-link-number">03</span>
+
+                <span class="mobile-link-text">
+                    Solutions
+                </span>
+
+                <span class="mobile-link-arrow">
+                    ↗
+                </span>
+            </a>
+
+
+            <a href="#about" class="mobile-link">
+                <span class="mobile-link-number">04</span>
+
+                <span class="mobile-link-text">
+                    About
+                </span>
+
+                <span class="mobile-link-arrow">
+                    ↗
+                </span>
+            </a>
+
+
+            <a href="#insights" class="mobile-link">
+                <span class="mobile-link-number">05</span>
+
+                <span class="mobile-link-text">
+                    Insights
+                </span>
+
+                <span class="mobile-link-arrow">
+                    ↗
+                </span>
+            </a>
+
+
+            <a href="#careers" class="mobile-link">
+                <span class="mobile-link-number">06</span>
+
+                <span class="mobile-link-text">
+                    Careers
+                </span>
+
+                <span class="mobile-link-arrow">
+                    ↗
+                </span>
+            </a>
+
+        </nav>
+
+
+        <!-- MOBILE BOTTOM -->
+        <div class="mobile-menu-bottom">
+
+            <p class="mobile-small-label">
+                Ready to create something meaningful?
+            </p>
+
+            <a href="#contact" class="mobile-project-btn mobile-link">
+                <span>Start a Project</span>
+                <span>↗</span>
+            </a>
+
+            <div class="mobile-bottom-meta">
+
+                <span>Karachi</span>
+
+                <span>Digital Agency</span>
+
+                <span>WebOctane</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <!-- MAIN CONTENT -->
+<main>
+  
+
+
+       <!-- HERO SECTION -->
+      <section class="hero" id="home" aria-labelledby="hero-title">
+
+    <!-- VIDEO -->
+    <video
+        class="hero-video"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="metadata"
+    >
+        <source
+            src="./assets/video/weboctanevideo.mp4"
+            type="video/mp4"
+        >
+    </video>
+
+    <!-- CINEMATIC COLOR TREATMENT -->
+    <div class="hero-video-overlay"></div>
+
+    <div class="hero-blue-light"></div>
+
+    <div class="hero-yellow-light"></div>
+
+
+    <!-- MAIN OBJECT -->
+    <div
+        id="hero-object-wrap"
+        class="hero-object-wrap"
+        aria-hidden="true"
+    >
+
+        <div class="hero-object-backlight"></div>
+
+        <img
+            src="./assets/images/bulb.png"
+            alt=""
+            class="hero-object"
+            draggable="false"
+        >
+
+    </div>
+
+
+    <!-- HERO CONTENT -->
+    <div class="hero-content">
+
+        <h1
+            id="hero-title"
+            class="hero-title"
+        >
+            HELLO<span>.</span>
+        </h1>
+
+        <div class="hero-description-row">
+
+            <p class="hero-description">
+                WebOctane connects brands with the world through creative marketing, technology and intelligent digital solutions.
+            </p>
+
+            <a
+                href="#contact"
+                class="hero-text-link"
+            >
+                Start a Project
+                <span>↗</span>
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- RIGHT TEXT -->
+    <div
+        class="hero-meta"
+        aria-hidden="true"
+    >
+        <span>Creative</span>
+        <strong>Technology</strong>
+        <span>Growth</span>
+    </div>
+
+
+    <!-- SCROLL -->
+    <div
+        class="hero-scroll"
+        aria-hidden="true"
+    >
+
+        <span>Scroll</span>
+
+        <div class="hero-scroll-line"></div>
+
+    </div>
+
+</section>
+        <!-- SERVICES SECTION -->
+<section class="agency-statement" id="about">
+
+    <div class="agency-statement__inner">
+
+        <p class="agency-statement__label">
+            WHAT WE DO
+        </p>
+
+        <h2 class="agency-statement__title">
+
+            <span>We connect strategy,</span>
+
+            <span>technology and creativity</span>
+
+            <span class="agency-statement__last-line">
+                to build better
+
+                <span class="rotating-word-slot">
+                    <span id="rotatingWord" class="rotating-word">
+                        growth
+                    </span>
+
+                    <span class="rotating-period">.</span>
+                </span>
+            </span>
+
+        </h2>
+
+        <p class="agency-statement__copy">
+            WebOctane combines creative thinking, digital marketing and technology to help businesses build stronger brands, better digital experiences and sustainable growth.
+        </p>
+
+    </div>
+
+</section>
+
+   <!-- SERVICES SECTION -->
+ <!-- <section id="services" class="octane-services-section">
+    <div class="services-atmosphere" aria-hidden="true">
+        <div class="services-glow-bg"></div>
+        <div class="services-grid-texture"></div>
+    </div>
+
+    <div class="services-container">
+        <div class="services-header-wrap">
+            <div class="services-mini-tag-wrap">
+                <span class="services-ping-dot"></span>
+                <span class="services-mini-label">Our Capabilities</span>
+            </div>
+            <h2 class="services-main-heading">
+                WE BUILD DIGITAL EXPERIENCES THAT DRIVE BUSINESS GROWTH<span class="heading-period">.</span>
+            </h2>
+        </div>
+
+        <div class="services-layout-grid">
+            <div class="services-tabs-col">
+                <nav class="services-nav-list" role="tablist" aria-label="Services Navigation">
+                    <button type="button" role="tab" aria-selected="true" aria-controls="service-panel-1" id="service-tab-1" class="service-tab-btn active" data-index="0">
+                        <div class="tab-meta-left">
+                            <span class="tab-number">01</span>
+                            <span class="tab-title">SEO &amp; Growth</span>
+                        </div>
+                        <div class="tab-indicator-wrap"><span class="tab-active-line"></span></div>
+                    </button>
+                    <button type="button" role="tab" aria-selected="false" aria-controls="service-panel-2" id="service-tab-2" class="service-tab-btn" data-index="1">
+                        <div class="tab-meta-left">
+                            <span class="tab-number">02</span>
+                            <span class="tab-title">Web Development</span>
+                        </div>
+                        <div class="tab-indicator-wrap"><span class="tab-active-line"></span></div>
+                    </button>
+                    <button type="button" role="tab" aria-selected="false" aria-controls="service-panel-3" id="service-tab-3" class="service-tab-btn" data-index="2">
+                        <div class="tab-meta-left">
+                            <span class="tab-number">03</span>
+                            <span class="tab-title">Digital Content</span>
+                        </div>
+                        <div class="tab-indicator-wrap"><span class="tab-active-line"></span></div>
+                    </button>
+                    <button type="button" role="tab" aria-selected="false" aria-controls="service-panel-4" id="service-tab-4" class="service-tab-btn" data-index="3">
+                        <div class="tab-meta-left">
+                            <span class="tab-number">04</span>
+                            <span class="tab-title">Social Media</span>
+                        </div>
+                        <div class="tab-indicator-wrap"><span class="tab-active-line"></span></div>
+                    </button>
+                    <button type="button" role="tab" aria-selected="false" aria-controls="service-panel-5" id="service-tab-5" class="service-tab-btn" data-index="4">
+                        <div class="tab-meta-left">
+                            <span class="tab-number">05</span>
+                            <span class="tab-title">Performance Marketing</span>
+                        </div>
+                        <div class="tab-indicator-wrap"><span class="tab-active-line"></span></div>
+                    </button>
+                    <button type="button" role="tab" aria-selected="false" aria-controls="service-panel-6" id="service-tab-6" class="service-tab-btn" data-index="5">
+                        <div class="tab-meta-left">
+                            <span class="tab-number">06</span>
+                            <span class="tab-title">Business Systems</span>
+                        </div>
+                        <div class="tab-indicator-wrap"><span class="tab-active-line"></span></div>
+                    </button>
+                </nav>
+            </div>
+
+            <div class="services-showcase-col">
+                <div class="showcase-glass-card">
+                    <div class="showcase-image-viewport">
+                        <div class="image-inner-wrap">
+                            <img id="showcase-img" src="" alt="Service Showcase Visual" class="showcase-media-img" draggable="false">
+                            <div class="showcase-media-vignette"></div>
+                        </div>
+                        <div class="showcase-floating-badge">
+                            <span class="badge-dot"></span>
+                            <span id="showcase-badge-text" class="badge-label-txt">Search Authority</span>
+                        </div>
+                    </div>
+
+                    <div class="showcase-content-area" id="showcase-content-box">
+                        <div class="showcase-text-group">
+                            <h3 id="showcase-title" class="showcase-title-txt">SEO &amp; Growth</h3>
+                            <p id="showcase-desc" class="showcase-desc-txt">
+                                Improve online visibility with intelligent SEO strategies, technical optimization and performance focused search solutions.
+                            </p>
+                        </div>
+                        <div class="showcase-features-wrap" id="showcase-features-list">
+                            <div class="feature-chip"><span class="feature-cross">✦</span><span>Technical SEO</span></div>
+                            <div class="feature-chip"><span class="feature-cross">✦</span><span>Keyword Strategy</span></div>
+                            <div class="feature-chip"><span class="feature-cross">✦</span><span>Analytics Tracking</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>  -->
+
+        <!-- EDITORIAL SECTION -->
+      <!-- <section id="editorial-interactive" class="octane-editorial-section bg-[#f8fafc] text-slate-900 border-y border-slate-200 py-24">
+            <div class="editorial-container">
+                <div class="editorial-tag-wrap bg-blue-50 border-blue-200">
+                    <span class="editorial-tag-dot bg-blue-600"></span>
+                    <span class="editorial-tag-text text-blue-900">Creative Intelligence</span>
+                </div>
+                <h2 class="editorial-heading text-slate-900">
+                    Creating experiences that connect
+                    <span class="interactive-word hover:text-blue-600" data-image="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=900&q=80" data-label="Design Preview" data-rotate="-4" data-offset-x="15" data-offset-y="-20">design</span>,
+                    <span class="interactive-word hover:text-blue-600" data-image="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=900&q=80" data-label="Technology Preview" data-rotate="3" data-offset-x="-25" data-offset-y="10">technology</span>,
+                    <span class="interactive-word hover:text-blue-600" data-image="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=900&q=80" data-label="AI Automation Preview" data-rotate="-2" data-offset-x="20" data-offset-y="25">AI automation</span>,
+                    <span class="interactive-word hover:text-blue-600" data-image="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=80" data-label="Growth Analytics Preview" data-rotate="5" data-offset-x="-15" data-offset-y="-15">growth</span>,
+                    <span class="interactive-word hover:text-blue-600" data-image="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80" data-label="Ecommerce Experience Preview" data-rotate="-3" data-offset-x="10" data-offset-y="20">ecommerce</span> and
+                    <span class="interactive-word hover:text-blue-600" data-image="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=900&q=80" data-label="Branding Preview" data-rotate="4" data-offset-x="-20" data-offset-y="-10">branding</span><span class="heading-dot text-octane-yellow">.</span>
+                </h2>
+
+                <div id="cursor-preview-card" class="cursor-preview-card bg-slate-900 border-blue-500/30 shadow-2xl" aria-hidden="true">
+                    <div class="preview-media-wrap">
+                        <img id="preview-img" src="" alt="Interactive Preview" class="preview-img" draggable="false">
+                        <div class="preview-vignette"></div>
+                    </div>
+                    <div class="preview-footer-badge bg-slate-900/90 border-blue-500/30">
+                        <span class="badge-dot-live bg-octane-yellow"></span>
+                        <span id="preview-badge-txt" class="badge-txt text-white">Preview</span>
+                    </div>
+                </div>
+            </div>
+        </section>  -->
+
+<!-- EDITORIAL SECTION -->
+ <!-- <section id="editorial-interactive" class="octane-editorial-section py-24">
+    <div class="editorial-container">
+        <div class="editorial-tag-wrap">
+            <span class="editorial-tag-dot"></span>
+            <span class="editorial-tag-text">Creative Intelligence</span>
+        </div>
+        <h2 class="editorial-heading">
+            Creating experiences that connect
+            <span class="interactive-word" data-image="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=900&q=80" data-label="Design Preview" data-rotate="-4" data-offset-x="15" data-offset-y="-20">design</span>,
+            <span class="interactive-word" data-image="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=900&q=80" data-label="Technology Preview" data-rotate="3" data-offset-x="-25" data-offset-y="10">technology</span>,
+            <span class="interactive-word" data-image="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=900&q=80" data-label="AI Automation Preview" data-rotate="-2" data-offset-x="20" data-offset-y="25">AI automation</span>,
+            <span class="interactive-word" data-image="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=80" data-label="Growth Analytics Preview" data-rotate="5" data-offset-x="-15" data-offset-y="-15">growth</span>,
+            <span class="interactive-word" data-image="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80" data-label="Ecommerce Experience Preview" data-rotate="-3" data-offset-x="10" data-offset-y="20">ecommerce</span> and
+            <span class="interactive-word" data-image="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=900&q=80" data-label="Branding Preview" data-rotate="4" data-offset-x="-20" data-offset-y="-10">branding</span><span class="heading-dot">.</span>
+        </h2>
+
+        <div id="cursor-preview-card" class="cursor-preview-card" aria-hidden="true">
+            <div class="preview-media-wrap">
+                <img id="preview-img" src="" alt="Interactive Preview" class="preview-img" draggable="false">
+                <div class="preview-vignette"></div>
+            </div>
+            <div class="preview-footer-badge">
+                <span class="badge-dot-live"></span>
+                <span id="preview-badge-txt" class="badge-txt">Preview</span>
+            </div>
+        </div>
+    </div>
+</section>  -->
+<section
+    id="octaneTrailSection"
+    class="octaneTrailSection"
+    aria-label="WebOctane creative statement"
+>
+
+    <div class="octaneTrailInner">
+
+        <!-- LEFT STATEMENT -->
+        <div class="octaneTrailStatement">
+
+            <p class="octaneTrailEyebrow">
+                CREATIVE INTELLIGENCE
+            </p>
+
+            <h2 class="octaneTrailHeading">
+
+                <span class="trailTextLine">
+                    Digital is easy to make.
+                </span>
+
+                <span class="trailTextLine">
+                    Building experiences people
+                </span>
+
+                <span class="trailTextLine">
+                    remember and businesses rely on
+                </span>
+
+                <span class="trailTextLine trailTextMuted">
+                    takes strategy, creativity,
+                </span>
+
+                <span class="trailTextLine trailTextMuted">
+                    technology and
+                    <span class="trailAccent">
+                        human thinking.
+                    </span>
+                </span>
+
+            </h2>
+
+        </div>
+
+
+        <!-- RIGHT LINKS -->
+        <nav
+            class="octaneTrailLinks"
+            aria-label="Explore WebOctane"
+        >
+
+            <a href="#work" class="octaneTrailLink">
+                <span>See our work.</span>
+
+                <svg viewBox="0 0 20 20" aria-hidden="true">
+                    <path d="M13.125 10.75H4.75C4.54 10.75 4.36 10.68 4.22 10.54C4.07 10.39 4 10.21 4 10C4 9.79 4.07 9.61 4.22 9.47C4.36 9.32 4.54 9.25 4.75 9.25H13.125L9.45 5.58C9.3 5.43 9.23 5.25 9.23 5.05C9.23 4.85 9.31 4.67 9.46 4.51C9.61 4.36 9.79 4.29 9.99 4.29C10.19 4.29 10.37 4.37 10.52 4.52L15.47 9.48C15.62 9.63 15.69 9.81 15.69 10C15.69 10.2 15.62 10.37 15.48 10.52L10.52 15.48C10.37 15.63 10.19 15.7 10 15.7C9.81 15.69 9.63 15.61 9.48 15.47C9.33 15.31 9.25 15.13 9.25 14.92C9.25 14.72 9.33 14.54 9.48 14.4L13.125 10.75Z"/>
+                </svg>
+            </a>
+
+
+            <a href="#services" class="octaneTrailLink">
+                <span>Explore our services.</span>
+
+                <svg viewBox="0 0 20 20" aria-hidden="true">
+                    <path d="M13.125 10.75H4.75C4.54 10.75 4.36 10.68 4.22 10.54C4.07 10.39 4 10.21 4 10C4 9.79 4.07 9.61 4.22 9.47C4.36 9.32 4.54 9.25 4.75 9.25H13.125L9.45 5.58C9.3 5.43 9.23 5.25 9.23 5.05C9.23 4.85 9.31 4.67 9.46 4.51C9.61 4.36 9.79 4.29 9.99 4.29C10.19 4.29 10.37 4.37 10.52 4.52L15.47 9.48C15.62 9.63 15.69 9.81 15.69 10C15.69 10.2 15.62 10.37 15.48 10.52L10.52 15.48C10.37 15.63 10.19 15.7 10 15.7C9.81 15.69 9.63 15.61 9.48 15.47C9.33 15.31 9.25 15.13 9.25 14.92C9.25 14.72 9.33 14.54 9.48 14.4L13.125 10.75Z"/>
+                </svg>
+            </a>
+
+
+            <a href="#solutions" class="octaneTrailLink">
+                <span>Discover our solutions.</span>
+
+                <svg viewBox="0 0 20 20" aria-hidden="true">
+                    <path d="M13.125 10.75H4.75C4.54 10.75 4.36 10.68 4.22 10.54C4.07 10.39 4 10.21 4 10C4 9.79 4.07 9.61 4.22 9.47C4.36 9.32 4.54 9.25 4.75 9.25H13.125L9.45 5.58C9.3 5.43 9.23 5.25 9.23 5.05C9.23 4.85 9.31 4.67 9.46 4.51C9.61 4.36 9.79 4.29 9.99 4.29C10.19 4.29 10.37 4.37 10.52 4.52L15.47 9.48C15.62 9.63 15.69 9.81 15.69 10C15.69 10.2 15.62 10.37 15.48 10.52L10.52 15.48C10.37 15.63 10.19 15.7 10 15.7C9.81 15.69 9.63 15.61 9.48 15.47C9.33 15.31 9.25 15.13 9.25 14.92C9.25 14.72 9.33 14.54 9.48 14.4L13.125 10.75Z"/>
+                </svg>
+            </a>
+
+
+            <a href="#insights" class="octaneTrailLink">
+                <span>Read our insights.</span>
+
+                <svg viewBox="0 0 20 20" aria-hidden="true">
+                    <path d="M13.125 10.75H4.75C4.54 10.75 4.36 10.68 4.22 10.54C4.07 10.39 4 10.21 4 10C4 9.79 4.07 9.61 4.22 9.47C4.36 9.32 4.54 9.25 4.75 9.25H13.125L9.45 5.58C9.3 5.43 9.23 5.25 9.23 5.05C9.23 4.85 9.31 4.67 9.46 4.51C9.61 4.36 9.79 4.29 9.99 4.29C10.19 4.29 10.37 4.37 10.52 4.52L15.47 9.48C15.62 9.63 15.69 9.81 15.69 10C15.69 10.2 15.62 10.37 15.48 10.52L10.52 15.48C10.37 15.63 10.19 15.7 10 15.7C9.81 15.69 9.63 15.61 9.48 15.47C9.33 15.31 9.25 15.13 9.25 14.92C9.25 14.72 9.33 14.54 9.48 14.4L13.125 10.75Z"/>
+                </svg>
+            </a>
+
+        </nav>
+
+    </div>
+
+
+    <!-- CURSOR IMAGE TRAIL -->
+   <div
+    id="octaneImageTrail"
+    class="octaneImageTrail"
+    aria-hidden="true"
+>
+
+    <div class="octaneTrailImage">
+        <img
+            src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=900&q=85"
+            alt=""
+        >
+    </div>
+
+    <div class="octaneTrailImage">
+        <img
+            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=85"
+            alt=""
+        >
+    </div>
+
+    <div class="octaneTrailImage">
+        <img
+            src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=900&q=85"
+            alt=""
+        >
+    </div>
+
+    <div class="octaneTrailImage">
+        <img
+            src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=900&q=85"
+            alt=""
+        >
+    </div>
+
+    <div class="octaneTrailImage">
+        <img
+            src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=900&q=85"
+            alt=""
+        >
+    </div>
+
+    <div class="octaneTrailImage">
+        <img
+            src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=85"
+            alt=""
+        >
+    </div>
+
+    <div class="octaneTrailImage">
+        <img
+            src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=85"
+            alt=""
+        >
+    </div>
+
+    <div class="octaneTrailImage">
+        <img
+            src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=900&q=85"
+            alt=""
+        >
+    </div>
+
+</div>
+
+</section>
+
+
+
+
+
+
+<section class="octaneLogoSection" id="clients">
+
+    <div class="octaneLogoHeader">
+
+        <p class="octaneLogoEyebrow">
+            BRANDS WE WORK WITH
+        </p>
+
+        <h2 class="octaneLogoTitle">
+            Built for brands that
+            <span>move forward.</span>
+        </h2>
+
+    </div>
+
+
+    <div class="octaneLogoGrid">
+
+        <div class="octaneLogoCard">
+            <img class="octaneChangingLogo" alt="Brand logo">
+        </div>
+
+        <div class="octaneLogoCard">
+            <img class="octaneChangingLogo" alt="Brand logo">
+        </div>
+
+        <div class="octaneLogoCard">
+            <img class="octaneChangingLogo" alt="Brand logo">
+        </div>
+
+        <div class="octaneLogoCard">
+            <img class="octaneChangingLogo" alt="Brand logo">
+        </div>
+
+        <div class="octaneLogoCard">
+            <img class="octaneChangingLogo" alt="Brand logo">
+        </div>
+
+        <div class="octaneLogoCard">
+            <img class="octaneChangingLogo" alt="Brand logo">
+        </div>
+
+        <div class="octaneLogoCard">
+            <img class="octaneChangingLogo" alt="Brand logo">
+        </div>
+
+        <div class="octaneLogoCard">
+            <img class="octaneChangingLogo" alt="Brand logo">
+        </div>
+
+    </div>
+
+</section>
+
+
+        <!-- CINEMATIC HORIZONTAL OUR WORK SECTION -->
+        
+
+
+        <!-- CINEMATIC HORIZONTAL OUR WORK SECTION -->
+
+
+<section class="octane-work-section" id="work">
+
+    <div class="octane-work-pin" id="horizontalPinWrap">
+
+        <div class="octane-work-heading">
+            <h2>
+                Our work<span>.</span>
+            </h2>
+        </div>
+
+
+        <div class="octane-work-track" id="horizontalTrack">
+
+            <!-- PROJECT 1 -->
+            <a href="#"
+               class="octane-work-panel">
+
+                <img
+                    src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1800&q=90"
+                    alt="Osaka Global project"
+                >
+
+                <div class="octane-work-overlay"></div>
+
+                <div class="octane-work-content">
+
+                    <p class="octane-project-name">
+                        Osaka Global.
+                    </p>
+
+                    <p class="octane-project-description">
+                        Building a faster digital platform for a growing global business.
+                    </p>
+
+                </div>
+
+            </a>
+
+
+            <!-- PROJECT 2 -->
+            <a href="#"
+               class="octane-work-panel">
+
+                <img
+                    src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1800&q=90"
+                    alt="Quetee Cosmetics project"
+                >
+
+                <div class="octane-work-overlay"></div>
+
+                <div class="octane-work-content">
+
+                    <p class="octane-project-name">
+                        Quetee Cosmetics.
+                    </p>
+
+                    <p class="octane-project-description">
+                        Creating a commerce experience designed around beauty and conversion.
+                    </p>
+
+                </div>
+
+            </a>
+
+
+            <!-- PROJECT 3 -->
+            <a href="#"
+               class="octane-work-panel">
+
+                <img
+                    src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1800&q=90"
+                    alt="Kasur Archives project"
+                >
+
+                <div class="octane-work-overlay"></div>
+
+                <div class="octane-work-content">
+
+                    <p class="octane-project-name">
+                        Kasur Archives.
+                    </p>
+
+                    <p class="octane-project-description">
+                        Turning historical records into an accessible digital experience.
+                    </p>
+
+                </div>
+
+            </a>
+
+
+            <!-- PROJECT 4 -->
+            <a href="#"
+               class="octane-work-panel">
+
+                <img
+                    src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1800&q=90"
+                    alt="Ocean Path Logistics project"
+                >
+
+                <div class="octane-work-overlay"></div>
+
+                <div class="octane-work-content">
+
+                    <p class="octane-project-name">
+                        Ocean Path Logistics.
+                    </p>
+
+                    <p class="octane-project-description">
+                        Connecting logistics, visibility and digital operations in one experience.
+                    </p>
+
+                </div>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="wo-partnership-intro-section">
+
+    <div class="wo-partnership-intro-inner">
+
+        <p class="wo-partnership-intro-label">
+            LONG TERM PARTNERSHIPS
+        </p>
+
+        <h2 class="wo-partnership-intro-title">
+            Never one and done<span>.</span>
+        </h2>
+
+        <p class="wo-partnership-intro-copy">
+            We work with businesses beyond launch, improving experiences,
+            performance and digital growth as their needs evolve.
+        </p>
+
+    </div>
+
+</section>
+
+        <!-- =================================================================
+cards
+   ================================================================= -->
+<section class="wo-partners" id="partnerships">
+
+    <!-- INTRO NORMAL SCROLL -->
+    
+
+
+
+    <!-- RADIAL CARDS STAGE -->
+    <div
+        class="wo-radial-stage"
+        id="woRadialStage"
+    >
+
+        <!--
+            GIANT INVISIBLE WHEEL
+            Pivot is below viewport
+        -->
+        <div
+            class="wo-radial-wheel"
+            id="woRadialWheel"
+        >
+
+            <!-- CARD 1 -->
+            <div
+                class="wo-card-mount wo-card-mount-1"
+                style="--card-angle: -38deg;"
+            >
+
+                <article class="wo-radial-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=90"
+                        alt="Digital Experience"
+                    >
+
+                    <div class="wo-card-overlay"></div>
+
+                    <p class="wo-card-label">
+                        DIGITAL EXPERIENCE
+                    </p>
+
+                    <h3>
+                        Digital platforms designed to keep evolving.
+                    </h3>
+
+                </article>
+
+            </div>
+
+
+            <!-- CARD 2 -->
+            <div
+                class="wo-card-mount wo-card-mount-2"
+                style="--card-angle: -19deg;"
+            >
+
+                <article class="wo-radial-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1200&q=90"
+                        alt="Brand Systems"
+                    >
+
+                    <div class="wo-card-overlay"></div>
+
+                    <p class="wo-card-label">
+                        BRAND SYSTEMS
+                    </p>
+
+                    <h3>
+                        Reimagining brands through stronger digital experiences.
+                    </h3>
+
+                </article>
+
+            </div>
+
+
+            <!-- CARD 3 -->
+            <div
+                class="wo-card-mount wo-card-mount-3"
+                style="--card-angle: 0deg;"
+            >
+
+                <article class="wo-radial-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=90"
+                        alt="Business Technology"
+                    >
+
+                    <div class="wo-card-overlay"></div>
+
+                    <p class="wo-card-label">
+                        BUSINESS TECHNOLOGY
+                    </p>
+
+                    <h3>
+                        Intelligent systems built around real operations.
+                    </h3>
+
+                </article>
+
+            </div>
+
+
+            <!-- CARD 4 -->
+            <div
+                class="wo-card-mount wo-card-mount-4"
+                style="--card-angle: 19deg;"
+            >
+
+                <article class="wo-radial-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=90"
+                        alt="Creative"
+                    >
+
+                    <div class="wo-card-overlay"></div>
+
+                    <p class="wo-card-label">
+                        CREATIVE
+                    </p>
+
+                    <h3>
+                        Experiences designed to stay relevant and memorable.
+                    </h3>
+
+                </article>
+
+            </div>
+
+
+            <!-- CARD 5 -->
+            <div
+                class="wo-card-mount wo-card-mount-5"
+                style="--card-angle: 38deg;"
+            >
+
+                <article class="wo-radial-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=90"
+                        alt="Growth"
+                    >
+
+                    <div class="wo-card-overlay"></div>
+
+                    <p class="wo-card-label">
+                        GROWTH
+                    </p>
+
+                    <h3>
+                        Measuring performance and improving what matters.
+                    </h3>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-- ctane braands -->
+
+<section class="octane-stacked-sections" id="brand-strategies">
+
+    <!-- Card 1 -->
+    <div class="editorial-card-container" style="top: 20px;">
+        <div class="editorial-content-inner">
+            <div class="editorial-number-tag">01</div>
+            <h2 class="editorial-heading-title">Brand strategy & design<span class="editorial-dot">.</span></h2>
+            <p class="editorial-desc-text">Brands that move with culture. We architect future-ready digital identities, immersive design systems, and engaging experiences that resonate globally.</p>
+            <div class="editorial-action-wrap">
+                <a href="#explore" class="editorial-explore-link">Explore Capabilities <span>→</span></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="editorial-card-container" style="top: 40px;">
+        <div class="editorial-content-inner">
+            <div class="editorial-number-tag">02</div>
+            <h2 class="editorial-heading-title">Digital product engineering<span class="editorial-dot">.</span></h2>
+            <p class="editorial-desc-text">Building scalable platforms and high-performance web architectures powered by cutting-edge backend logic and seamless user interfaces.</p>
+            <div class="editorial-action-wrap">
+                <a href="#explore" class="editorial-explore-link">Explore Engineering <span>→</span></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="editorial-card-container" style="top: 60px;">
+        <div class="editorial-content-inner">
+            <div class="editorial-number-tag">03</div>
+            <h2 class="editorial-heading-title">E-commerce ecosystems<span class="editorial-dot">.</span></h2>
+            <p class="editorial-desc-text">Crafting custom Shopify Plus solutions, immersive 3D product previews, and high-conversion transaction flows for global retailers.</p>
+            <div class="editorial-action-wrap">
+                <a href="#explore" class="editorial-explore-link">Explore Commerce <span>→</span></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="editorial-card-container" style="top: 80px;">
+        <div class="editorial-content-inner">
+            <div class="editorial-number-tag">04</div>
+            <h2 class="editorial-heading-title">Immersive motion & 3D<span class="editorial-dot">.</span></h2>
+            <p class="editorial-desc-text">Elevating brand narratives through interactive web animations, spatial audio-visuals, and next-gen webGL browser experiences.</p>
+            <div class="editorial-action-wrap">
+                <a href="#explore" class="editorial-explore-link">Explore Motion <span>→</span></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="editorial-card-container" style="top: 100px;">
+        <div class="editorial-content-inner">
+            <div class="editorial-number-tag">05</div>
+            <h2 class="editorial-heading-title">Growth & optimization<span class="editorial-dot">.</span></h2>
+            <p class="editorial-desc-text">Data-driven performance marketing, continuous site health audits, and conversion rate optimization to scale your business exponentially.</p>
+            <div class="editorial-action-wrap">
+                <a href="#explore" class="editorial-explore-link">Explore Growth <span>→</span></a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<section class="wo-ideas-section" id="ideas">
+
+    <div class="wo-ideas-inner">
+
+        <p class="wo-ideas-label">
+            IDEAS & INSIGHTS
+        </p>
+
+        <h2 class="wo-ideas-title">
+            Ideas & news<span>.</span>
+        </h2>
+
+
+        <div class="wo-ideas-video-card">
+
+            <video
+                class="wo-ideas-video"
+                autoplay
+                muted
+                loop
+                playsinline
+                preload="metadata"
+            >
+                <source
+                    src="./assets/video/webboctane-new.mp4"
+                    type="video/mp4"
+                >
+            </video>
+
+
+            <div class="wo-ideas-video-overlay"></div>
+
+
+            <div class="wo-ideas-topbar">
+
+                <span class="wo-ideas-chip">
+                    Insights
+                </span>
+
+                <span class="wo-ideas-readtime">
+                    3 min read
+                </span>
+
+            </div>
+
+
+            <div class="wo-ideas-video-content">
+
+                <p class="wo-ideas-kicker">
+                    WEBOCTANE PERSPECTIVE
+                </p>
+
+                <h3>
+                    Ideas shaping better digital experiences.
+                </h3>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+<!-- CREATOR NETWORK SECTION -->
+
+<section class="wo-final-links-section">
+
+    <div class="wo-final-links-grid">
+
+        <a href="#work" class="wo-final-card">
+
+            <span class="wo-final-card-label">
+                WORK.
+            </span>
+
+            <h2 class="wo-final-card-title">
+                Check our
+                <br>
+                latest work.
+            </h2>
+
+            <div class="wo-final-card-arrow">
+                ↗
+            </div>
+
+        </a>
+
+
+        <a href="#contact" class="wo-final-card">
+
+            <span class="wo-final-card-label">
+                CONTACT.
+            </span>
+
+            <h2 class="wo-final-card-title">
+                Ready to
+                <br>
+                talk?
+            </h2>
+
+            <div class="wo-final-card-arrow">
+                ↗
+            </div>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+<footer id="contact" class="wo-premium-footer">
+
+    <div class="wo-footer-shell">
+
+        <!-- SOCIAL ICONS -->
+        <div class="wo-footer-social-rail">
+
+            <a href="#" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M6.5 8.2H3.3V20h3.2V8.2ZM4.9 3C3.9 3 3.2 3.7 3.2 4.6c0 .9.7 1.6 1.7 1.6s1.7-.7 1.7-1.6C6.6 3.7 5.9 3 4.9 3ZM20.7 13.2c0-3.5-1.9-5.1-4.4-5.1-2 0-2.9 1.1-3.4 1.9V8.2H9.7V20h3.2v-5.8c0-1.5.3-3 2.2-3 1.9 0 1.9 1.7 1.9 3.1V20h3.2v-6.8Z"/>
+                </svg>
+            </a>
+
+            <a href="#" aria-label="X">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M18.4 3H21l-5.7 6.5L22 21h-5.2l-4.1-5.4L8 21H5.4l6.1-7L5 3h5.3l3.7 4.9L18.4 3Zm-.9 16h1.4L9.5 4.9H8L17.5 19Z"/>
+                </svg>
+            </a>
+
+            <a href="#" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3.2A4.8 4.8 0 1 1 7.2 12 4.8 4.8 0 0 1 12 7.2Zm0 2A2.8 2.8 0 1 0 14.8 12 2.8 2.8 0 0 0 12 9.2Zm5.1-3.3a1.1 1.1 0 1 1-1.1 1.1 1.1 1.1 0 0 1 1.1-1.1Z"/>
+                </svg>
+            </a>
+
+            <a href="#" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M14 8h3V4.5c-.5-.1-2-.2-3.1-.2-3.1 0-5.2 1.9-5.2 5.4V13H5v4h3.7v7H13v-7h3.4l.5-4H13V10c0-1.2.3-2 1-2Z"/>
+                </svg>
+            </a>
+
+        </div>
+
+
+        <!-- TOP AREA -->
+        <div class="wo-footer-top">
+
+            <!-- LEFT -->
+            <div class="wo-footer-intro">
+
+                <p class="wo-footer-kicker">
+                    READY WHEN YOU ARE
+                </p>
+
+                <h2 class="wo-footer-heading">
+                    Do you like
+                    <br>
+                    what you see<span>?</span>
+                </h2>
+
+                <a
+                    href="mailto:hello@weboctane.tech"
+                    class="wo-footer-cta"
+                >
+                    Start a Project
+
+                    <span aria-hidden="true">
+                        ↗
+                    </span>
+                </a>
+
+            </div>
+
+
+            <!-- RIGHT -->
+            <div class="wo-footer-nav-group">
+
+                <!-- EXPLORE -->
+                <div class="wo-footer-column">
+
+                    <p class="wo-footer-column-title">
+                        Explore
+                    </p>
+
+                    <ul>
+                        <li>
+                            <a href="#work">
+                                Work
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#services">
+                                Services
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#solutions">
+                                Solutions
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#about">
+                                About
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#insights">
+                                Insights
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#careers">
+                                Careers
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+                <!-- CONNECT -->
+                <div class="wo-footer-column">
+
+                    <p class="wo-footer-column-title">
+                        Connect
+                    </p>
+
+                    <ul>
+                        <li>
+                            <a href="#contact">
+                                Contact
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                LinkedIn
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                Instagram
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                Facebook
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+                <!-- CONTACT -->
+                <div class="wo-footer-column wo-footer-contact">
+
+                    <p class="wo-footer-column-title">
+                        Get in touch
+                    </p>
+
+                    <a
+                        href="mailto:hello@weboctane.tech"
+                        class="wo-footer-email"
+                    >
+                        hello@weboctane.tech
+                    </a>
+
+
+                    <div class="wo-footer-numbers">
+
+                        <a href="tel:+923000339752">
+                            <small>Pakistan</small>
+
+                            <span>
+                                +92 300 0339752
+                            </span>
+                        </a>
+
+                        <a href="tel:+96878713301">
+                            <small>Oman</small>
+
+                            <span>
+                                +968 78713301
+                            </span>
+                        </a>
+
+                        <a href="tel:+971563064179">
+                            <small>UAE</small>
+
+                            <span>
+                                +971 56 3064179
+                            </span>
+                        </a>
+
+                        <a href="tel:+18728021971">
+                            <small>USA</small>
+
+                            <span>
+                                +1 872 802 1971
+                            </span>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- LARGE BRAND LINE -->
+        <div class="wo-footer-brand-line">
+
+            <h3>
+                Building digital
+                <br>
+                since 2025<span>.</span>
+            </h3>
+
+        </div>
+
+
+        <!-- BOTTOM -->
+        <div class="wo-footer-bottom">
+
+            <div class="wo-footer-logo-wrap">
+
+                <img
+                    src="./assets/images/web-octane-logo.png"
+                    alt="WebOctane"
+                    class="wo-footer-logo"
+                >
+
+            </div>
+
+
+            <div class="wo-footer-meta">
+
+                <span>
+                    © 2026 WebOctane
+                </span>
+
+                <a href="#">
+                    Privacy Policy
+                </a>
+
+                <a href="#">
+                    Terms & Conditions
+                </a>
+
+            </div>
+
+
+            <div class="wo-footer-location">
+
+                <span class="wo-footer-status-dot"></span>
+
+                <span>
+                    Karachi
+                </span>
+
+                <span>/</span>
+
+                <span>
+                    Pakistan
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./js/vendor/gsap.min.js"></script>
+<script src="./js/vendor/ScrollTrigger.min.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
